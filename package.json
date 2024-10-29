@@ -1,0 +1,18 @@
+{
+  "name": "figma-escape-2",
+  "version": "1.0.0",
+  "description": "Figma ESC with Sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "figma-escape-2"
+  },
+  "author": "Ronja Fagerdahl",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.80.5"
+  }
+}
