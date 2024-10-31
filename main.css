@@ -10,7 +10,7 @@ ul {
   padding: 0;
 }
 
-li {
+li, menu {
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -48,10 +48,25 @@ li {
 @media screen and (min-width: 800px) {
   .nav {
     display: block;
+    background-color: #011827;
   }
   .nav__menu {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  .nav__menuItem {
+    padding: 1rem;
+  }
+  .nav__menuLink {
+    color: white;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .nav__menuLink:hover {
+    color: #8ACFE5;
   }
 }
 

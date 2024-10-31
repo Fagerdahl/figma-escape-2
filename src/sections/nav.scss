@@ -5,11 +5,34 @@
 
     @include lib.wide-screen {
         display:block;
+        background-color: lib.$c-darkblue;
 
-        &__menu{
+        &__menu {
             display: flex;
-            justify-content: center;
+            justify-content: space-around;
+            margin:0 auto;
+            max-width: 1200px;
 
         }
+
+        &__menuItem {
+            padding: 1rem;
+           
+        }
+
+
+
+        &__menuLink {
+            color: lib.$c-white;
+            padding: 1rem;
+            font-size: 1.5rem;
+            font-weight: bold;
+
+            &:hover{
+                color: lib.$c-lightblue; 
+            }
+        }
+
+       
     }
 }
