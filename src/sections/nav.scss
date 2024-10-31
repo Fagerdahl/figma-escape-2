@@ -1,0 +1,15 @@
+@use "../lib.scss";
+
+.nav{
+    display:none;
+
+    @include lib.wide-screen {
+        display:block;
+
+        &__menu{
+            display: flex;
+            justify-content: center;
+
+        }
+    }
+}
